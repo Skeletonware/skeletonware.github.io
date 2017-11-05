@@ -10,9 +10,9 @@
         <p>Real website coming soon!</p>
         <br/>
         <div id="animation" style="text-align: center">
-            <img src="skellybelly01.png">
-            <img src="skellybelly02.png" style="display: none">
+            <img src="skellybelly.gif">
         </div>
+
         
         
         
@@ -25,7 +25,7 @@
 <style>
     
     body {
-        background-color: #000000;
+        background-color: #454233;
     }
     
     
@@ -42,19 +42,6 @@
     
     
 </style>
-
-<script>
-    onload = function startAnimation() { 
-    var frames = document.getElementById("animation").children;
-    var frameCount = frames.length;
-    var i = 0;
-    setInterval(function () { 
-        frames[i % frameCount].style.display = "none";
-        frames[++i % frameCount].style.display = "inline";
-        
-    }, 150); 
-} 
-</script>
 
 
 
